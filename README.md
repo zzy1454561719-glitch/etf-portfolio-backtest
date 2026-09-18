@@ -167,7 +167,7 @@ EW 不需要估计未来收益或协方差，也不需要数值优化。它在�
 安装依赖：
 
 ```bash
-pip install pandas numpy scipy matplotlib yfinance jupyter
+pip install -r requirements.txt
 ```
 
 启动 Jupyter：
@@ -184,6 +184,8 @@ jupyter notebook
 .
 ├── README.md
 ├── portfolio_backtest.ipynb
+├── requirements.txt
+├── .gitignore
 └── figures/
     └── oos_cumulative_wealth.png
 ```
